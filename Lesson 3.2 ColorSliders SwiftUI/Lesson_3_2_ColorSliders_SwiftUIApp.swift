@@ -1,6 +1,6 @@
 //
-//  Lesson_3_1_ColorSliders_SwiftUIApp.swift
-//  Lesson 3.1 ColorSliders SwiftUI
+//  Lesson_3_2_ColorSliders_SwiftUIApp.swift
+//  Lesson 3.2 ColorSliders SwiftUI
 //
 //  Created by Константин Андреев on 28.04.2022.
 //

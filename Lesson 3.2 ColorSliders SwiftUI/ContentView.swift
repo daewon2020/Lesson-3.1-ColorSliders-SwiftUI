@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Lesson 3.1 ColorSliders SwiftUI
+//  Lesson 3.2 ColorSliders SwiftUI
 //
 //  Created by Константин Андреев on 28.04.2022.
 //
