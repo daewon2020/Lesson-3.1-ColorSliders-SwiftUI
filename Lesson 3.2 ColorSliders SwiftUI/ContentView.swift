@@ -22,9 +22,9 @@ struct ContentView: View {
                     .frame(height: 150)
                     .overlay(RoundedRectangle(cornerRadius: 20).stroke(Color(.white) ,lineWidth: 4))
                     .foregroundColor(Color(red: redSliderValue/255, green: greenSliderValue/255, blue: blueSliderValue/255))
-                colorSlider(color: $redSliderValue, focusState: $colorTextFieldIsFocused, sliderColor: .red)
-                colorSlider(color: $greenSliderValue, focusState: $colorTextFieldIsFocused,sliderColor: .green)
-                colorSlider(color: $blueSliderValue, focusState: $colorTextFieldIsFocused, sliderColor: .blue)
+                colorSlider(colorNumber: $redSliderValue, focusState: $colorTextFieldIsFocused, sliderColor: .red)
+                colorSlider(colorNumber: $greenSliderValue, focusState: $colorTextFieldIsFocused,sliderColor: .green)
+                colorSlider(colorNumber: $blueSliderValue, focusState: $colorTextFieldIsFocused, sliderColor: .blue)
                 Spacer()
             }.padding()
                 .keyboardType(.numberPad)
@@ -48,7 +48,7 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 struct colorSlider: View {
-    @Binding var color: Double
+    @Binding var colorNumber: Double
     let focusState: FocusState<Bool>.Binding
     var sliderColor: Color
     private let formatter: NumberFormatter = {
@@ -61,13 +61,15 @@ struct colorSlider: View {
     
     var body: some View {
         HStack {
-            Text("\(lround(color))")
+            Text("\(lround(colorNumber))")
                 .frame(width: 35)
                 .foregroundColor(.white)
-            Slider(value: $color, in: (1...255), step: 1) { _ in
+            
+            Slider(value: $colorNumber, in: (1...255), step: 1) { _ in
                 focusState.wrappedValue = false
             }.accentColor(sliderColor)
-            TextField("", value: $color, formatter: formatter)
+            
+            TextField("", value: $colorNumber, formatter: formatter)
                 .frame(width: 45)
                 .textFieldStyle(.roundedBorder)
                 .focused(focusState)
