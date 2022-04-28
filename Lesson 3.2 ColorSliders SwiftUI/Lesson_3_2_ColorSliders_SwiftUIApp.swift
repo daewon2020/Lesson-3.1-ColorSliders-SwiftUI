@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Lesson_3_1_ColorSliders_SwiftUIApp: App {
+struct Lesson_3_2_ColorSliders_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		228F45E2281AC89F00647B70 /* Lesson_3_1_ColorSliders_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228F45E1281AC89F00647B70 /* Lesson_3_1_ColorSliders_SwiftUIApp.swift */; };
+		228F45E2281AC89F00647B70 /* Lesson_3_2_ColorSliders_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228F45E1281AC89F00647B70 /* Lesson_3_2_ColorSliders_SwiftUIApp.swift */; };
 		228F45E4281AC89F00647B70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228F45E3281AC89F00647B70 /* ContentView.swift */; };
 		228F45E6281AC8A100647B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228F45E5281AC8A100647B70 /* Assets.xcassets */; };
 		228F45E9281AC8A100647B70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228F45E8281AC8A100647B70 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		228F45DE281AC89F00647B70 /* Lesson 3.1 ColorSliders SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 3.1 ColorSliders SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		228F45E1281AC89F00647B70 /* Lesson_3_1_ColorSliders_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson_3_1_ColorSliders_SwiftUIApp.swift; sourceTree = "<group>"; };
+		228F45DE281AC89F00647B70 /* Lesson 3.2 ColorSliders SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 3.2 ColorSliders SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		228F45E1281AC89F00647B70 /* Lesson_3_2_ColorSliders_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson_3_2_ColorSliders_SwiftUIApp.swift; sourceTree = "<group>"; };
 		228F45E3281AC89F00647B70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		228F45E5281AC8A100647B70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		228F45E8281AC8A100647B70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		228F45D5281AC89F00647B70 = {
 			isa = PBXGroup;
 			children = (
-				228F45E0281AC89F00647B70 /* Lesson 3.1 ColorSliders SwiftUI */,
+				228F45E0281AC89F00647B70 /* Lesson 3.2 ColorSliders SwiftUI */,
 				228F45DF281AC89F00647B70 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +43,20 @@
 		228F45DF281AC89F00647B70 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				228F45DE281AC89F00647B70 /* Lesson 3.1 ColorSliders SwiftUI.app */,
+				228F45DE281AC89F00647B70 /* Lesson 3.2 ColorSliders SwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		228F45E0281AC89F00647B70 /* Lesson 3.1 ColorSliders SwiftUI */ = {
+		228F45E0281AC89F00647B70 /* Lesson 3.2 ColorSliders SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				228F45E1281AC89F00647B70 /* Lesson_3_1_ColorSliders_SwiftUIApp.swift */,
+				228F45E1281AC89F00647B70 /* Lesson_3_2_ColorSliders_SwiftUIApp.swift */,
 				228F45E3281AC89F00647B70 /* ContentView.swift */,
 				228F45E5281AC8A100647B70 /* Assets.xcassets */,
 				228F45E7281AC8A100647B70 /* Preview Content */,
 			);
-			path = "Lesson 3.1 ColorSliders SwiftUI";
+			path = "Lesson 3.2 ColorSliders SwiftUI";
 			sourceTree = "<group>";
 		};
 		228F45E7281AC8A100647B70 /* Preview Content */ = {
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		228F45DD281AC89F00647B70 /* Lesson 3.1 ColorSliders SwiftUI */ = {
+		228F45DD281AC89F00647B70 /* Lesson 3.2 ColorSliders SwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 228F45EC281AC8A100647B70 /* Build configuration list for PBXNativeTarget "Lesson 3.1 ColorSliders SwiftUI" */;
+			buildConfigurationList = 228F45EC281AC8A100647B70 /* Build configuration list for PBXNativeTarget "Lesson 3.2 ColorSliders SwiftUI" */;
 			buildPhases = (
 				228F45DA281AC89F00647B70 /* Sources */,
 				228F45DB281AC89F00647B70 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Lesson 3.1 ColorSliders SwiftUI";
+			name = "Lesson 3.2 ColorSliders SwiftUI";
 			productName = "Lesson 3.1 ColorSliders SwiftUI";
-			productReference = 228F45DE281AC89F00647B70 /* Lesson 3.1 ColorSliders SwiftUI.app */;
+			productReference = 228F45DE281AC89F00647B70 /* Lesson 3.2 ColorSliders SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 228F45D9281AC89F00647B70 /* Build configuration list for PBXProject "Lesson 3.1 ColorSliders SwiftUI" */;
+			buildConfigurationList = 228F45D9281AC89F00647B70 /* Build configuration list for PBXProject "Lesson 3.2 ColorSliders SwiftUI" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				228F45DD281AC89F00647B70 /* Lesson 3.1 ColorSliders SwiftUI */,
+				228F45DD281AC89F00647B70 /* Lesson 3.2 ColorSliders SwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				228F45E4281AC89F00647B70 /* ContentView.swift in Sources */,
-				228F45E2281AC89F00647B70 /* Lesson_3_1_ColorSliders_SwiftUIApp.swift in Sources */,
+				228F45E2281AC89F00647B70 /* Lesson_3_2_ColorSliders_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +266,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Lesson 3.1 ColorSliders SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Lesson 3.2 ColorSliders SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = PW697ZQRTK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -295,7 +295,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Lesson 3.1 ColorSliders SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Lesson 3.2 ColorSliders SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = PW697ZQRTK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -320,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		228F45D9281AC89F00647B70 /* Build configuration list for PBXProject "Lesson 3.1 ColorSliders SwiftUI" */ = {
+		228F45D9281AC89F00647B70 /* Build configuration list for PBXProject "Lesson 3.2 ColorSliders SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				228F45EA281AC8A100647B70 /* Debug */,
@@ -329,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		228F45EC281AC8A100647B70 /* Build configuration list for PBXNativeTarget "Lesson 3.1 ColorSliders SwiftUI" */ = {
+		228F45EC281AC8A100647B70 /* Build configuration list for PBXNativeTarget "Lesson 3.2 ColorSliders SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				228F45ED281AC8A100647B70 /* Debug */,
