@@ -11,6 +11,7 @@
 		228F45E4281AC89F00647B70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228F45E3281AC89F00647B70 /* ContentView.swift */; };
 		228F45E6281AC8A100647B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228F45E5281AC8A100647B70 /* Assets.xcassets */; };
 		228F45E9281AC8A100647B70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228F45E8281AC8A100647B70 /* Preview Assets.xcassets */; };
+		22AC1F8F281D22480053F66A /* ColorSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1F8E281D22480053F66A /* ColorSliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		228F45E3281AC89F00647B70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		228F45E5281AC8A100647B70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		228F45E8281AC8A100647B70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22AC1F8E281D22480053F66A /* ColorSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				228F45E1281AC89F00647B70 /* Lesson_3_2_ColorSliders_SwiftUIApp.swift */,
 				228F45E3281AC89F00647B70 /* ContentView.swift */,
+				22AC1F8E281D22480053F66A /* ColorSliderView.swift */,
 				228F45E5281AC8A100647B70 /* Assets.xcassets */,
 				228F45E7281AC8A100647B70 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				228F45E4281AC89F00647B70 /* ContentView.swift in Sources */,
 				228F45E2281AC89F00647B70 /* Lesson_3_2_ColorSliders_SwiftUIApp.swift in Sources */,
+				22AC1F8F281D22480053F66A /* ColorSliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

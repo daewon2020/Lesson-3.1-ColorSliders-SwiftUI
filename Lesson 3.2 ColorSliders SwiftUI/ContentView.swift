@@ -22,17 +22,20 @@ struct ContentView: View {
                     .frame(height: 150)
                     .overlay(RoundedRectangle(cornerRadius: 20).stroke(Color(.white) ,lineWidth: 4))
                     .foregroundColor(Color(red: redSliderValue/255, green: greenSliderValue/255, blue: blueSliderValue/255))
-                colorSlider(colorNumber: $redSliderValue, focusState: $colorTextFieldIsFocused, sliderColor: .red)
-                colorSlider(colorNumber: $greenSliderValue, focusState: $colorTextFieldIsFocused,sliderColor: .green)
-                colorSlider(colorNumber: $blueSliderValue, focusState: $colorTextFieldIsFocused, sliderColor: .blue)
+        
+                ColorSliderView(colorNumber: $redSliderValue, colorText: "\(lround(redSliderValue))", sliderColor: .red)
+                ColorSliderView(colorNumber: $greenSliderValue, colorText: "\(lround(greenSliderValue))", sliderColor: .green)
+                ColorSliderView(colorNumber: $blueSliderValue, colorText: "\(lround(blueSliderValue))", sliderColor: .blue)
                 Spacer()
             }.padding()
                 .keyboardType(.numberPad)
         }.onTapGesture {
             colorTextFieldIsFocused = false
         }
+        .focused($colorTextFieldIsFocused)
         .toolbar {
-            ToolbarItem(placement: .keyboard) {
+            ToolbarItemGroup(placement: .keyboard) {
+                Spacer()
                 Button("Done") {
                     colorTextFieldIsFocused = false
                 }
@@ -47,32 +50,4 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct colorSlider: View {
-    @Binding var colorNumber: Double
-    let focusState: FocusState<Bool>.Binding
-    var sliderColor: Color
-    private let formatter: NumberFormatter = {
-        let formatter = NumberFormatter()
-        formatter.numberStyle = .decimal
-        formatter.roundingMode = .halfUp
-        formatter.maximumFractionDigits = 0
-        return formatter
-    }()
-    
-    var body: some View {
-        HStack {
-            Text("\(lround(colorNumber))")
-                .frame(width: 35)
-                .foregroundColor(.white)
-            
-            Slider(value: $colorNumber, in: (1...255), step: 1) { _ in
-                focusState.wrappedValue = false
-            }.accentColor(sliderColor)
-            
-            TextField("", value: $colorNumber, formatter: formatter)
-                .frame(width: 45)
-                .textFieldStyle(.roundedBorder)
-                .focused(focusState)
-        }
-    }
-}
+
